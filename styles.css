@@ -8,36 +8,40 @@ body {
 
 .header {
     background-color: #1F2937;
-    
-    height: 40px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    padding: 20px 350px;
     gap: 20px;
+    padding: 20px 0px;
 }
+    .header-contents {
+        width: 65%;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
     .header a {
         text-decoration: none;
         color:#E5E7EB;
         font-size: 18px;
-
-        
     }
     #header-logo {
         margin-right: auto;
         font-size: 24px;
         font-weight: 600;
         color: #F9FAF8;
-
     }
-
 
 .hero-section {
     background-color: #1F2937;
-    
     display: flex;
-    padding: 100px 350px;
+    justify-content: center;
+    padding: 100px 0px 150px 0px;
 }
+    .hero-contents {
+        display: flex;
+        width: 65%;
+    }
     .left-hero {
         flex: 1;
         display: flex;
@@ -83,22 +87,22 @@ body {
 
 .contents-info {
     background-color: #F9FAF8;
-    padding: 0px 400px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
     .contents-info h2{
         text-align: center;
         font-size: 36px;
         font-weight: bolder;
         color: #1F2937;
-        padding: 10px;
-
+        padding: 18px;
     }
     .contents-info .items {
+        width: 50%;
         display: flex;
         justify-content: center;
         padding-bottom: 80px;
-        gap: 30px;
     }
     .content-item {
         flex: 1;
@@ -106,13 +110,12 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        
     }
     .content-item img {
         width: 150px;
         height: 160px;
         border-radius: 15px;
-        border: solid 2px #3882F6;
+        border: solid 3px #3882F6;
     }
     .content-item p {
         width: 150px;
@@ -120,32 +123,35 @@ body {
 
 .contents-quote {
     background-color: #E5E7EB;
-    padding: 50px 400px;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    
 }
+    .quote-card {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        margin: 125px 0px;
+    }
     #quote{
         font-size: 36px;
         font-weight: 200;
-
+        margin: 0px;
     }
     #author{
         margin-left: auto;
         padding-right: 35px;
         font-size: 22px;
-        font-weight: bolder;
+        font-weight: bolder;       
     }
 
 .contents-sign-up {
     background-color: #F9FAF8;
-    
     text-align: center;
-    
 }
     .sign-up-box {
         background-color: #3882F6;
-        width: 65%;
+        width: 55%;
         margin: 75px auto;
         display: flex;
         align-items: center;
@@ -187,7 +193,6 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-
     }
     .footer p {
         color: #F9FAF8;
