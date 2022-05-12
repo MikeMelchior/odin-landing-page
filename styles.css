@@ -118,11 +118,9 @@ body {
         width: 150px;
     }
 
-
-
 .contents-quote {
     background-color: #E5E7EB;
-    padding: 50px 450px;
+    padding: 50px 400px;
     display: flex;
     flex-direction: column;
     
@@ -139,18 +137,61 @@ body {
         font-weight: bolder;
     }
 
-
-
-
-
-
 .contents-sign-up {
-    background-color: green;
+    background-color: #F9FAF8;
+    
+    text-align: center;
     
 }
+    .sign-up-box {
+        background-color: #3882F6;
+        width: 65%;
+        margin: 75px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+    }
+    .left-sign-up {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px 30px 80px;
+        align-items: flex-start;
+    }
+    .right-sign-up {
+        flex: 1 0 auto;
+    }
+    #sign-up-button {
+        background-color: #3882F6;
+        border: 2px solid #E5E7EB;
+        color: #E5E7EB;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 5px 15px;
+        border-radius: 8px;
+    }
+    .sign-up-text1 {
+        margin: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #E5E7EB;
+    }
+    .sign-up-text {
+        margin: 0px;
+        color: #E5E7EB;
+        font-weight: 300;
+    }
 
 .footer {
     background-color: #1F2937;
-    
-}
+    display: flex;
+    justify-content: center;
+
+    }
+    .footer p {
+        color: #F9FAF8;
+        font-size: 12px;
+        margin: 30px 0px;
+    }
 
